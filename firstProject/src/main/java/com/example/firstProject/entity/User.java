@@ -28,6 +28,8 @@ public class User { //pojo class
     @DBRef
     private List<JournalEntry> journalEntries = new ArrayList<>();
 
+    private List<String> roles;
+
 
 
 
